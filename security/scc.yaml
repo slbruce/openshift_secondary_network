@@ -1,0 +1,11 @@
+apiVersion: security.openshift.io/v1
+kind: SecurityContextConstraints
+metadata:
+  name: tap-one-scc
+  namespace: tap-one
+allowedCapabilities:
+- NET_ADMIN
+runAsUser:
+  type: RunAsAny
+seLinuxContext:
+  type: RunAsAny
