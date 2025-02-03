@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - lab-bastion",
+			"uri": "ssh://lab-bastion/"
+		}
+	],
+	"settings": {}
+}
